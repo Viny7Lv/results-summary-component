@@ -169,10 +169,6 @@ body {
     list-style: none;
 }
 
-li {
-    font-weight: bold;
-}
-
 img {
     margin-right: 10px;
     height: 18px;
@@ -220,8 +216,8 @@ img {
     align-items: center;
 }
 
-span {
-    color: rgba(124, 124, 124, 0.833);
+.span {
+    color: rgba(77, 77, 77, 0.833);
     font-weight: bold;
 }
 
