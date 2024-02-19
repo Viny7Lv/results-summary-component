@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@media (max-width: 750px) {
+    .container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        border-radius: 0;
+        width: 100%;
+    }
+
+    .result {
+        border-radius: 0 0 35px 35px;
+        height: 310px;
+        min-width: 100%;
+        padding: 25px 0;
+    }
+
+    .result h1 {
+        font-size: 18px;
+    }
+
+    .result .number {
+        top: 70px;
+        width: 150px;
+        height: 150px;
+    }
+
+    .result .number h1 {
+        font-size: 60px;
+    }
+
+    .result .number p {
+        font-size: 15px;
+    }
+
+    .great {
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+        bottom: 40px;
+    }
+
+    .great .note {
+        font-size: 25px;
+        margin-bottom: 10px;
+    }
+
+    .great p {
+        font-size: 16px;
+        width: 80%;
+    }
+
+    .summary {
+        padding: 20px 20px;
+        width: 100%;
+        gap: 15px;
+    }
+
+    .summary h1 {
+        font-size: 18px;
+        margin-bottom: 10px;
+    }
+
+    .stats li{
+        font-size: 16px;
+    }
+
+    .stats li span {
+        font-size: 16px;
+    }
+
+    .button {
+        width: 280px;
+    }
+}
